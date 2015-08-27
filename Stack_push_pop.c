@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-/*#define size 5
+#define size 5
 
 int stack [size];
 int top = -1; // Because index start from 0
@@ -62,30 +62,7 @@ int main()
   
     
 }
- */
 
-int x = 50;
-static int y = 5;
-char a[10];
-
-int foo()
-{
-    int x = 66;
-    x++;
-    printf ("%d",x);
-    int x = 66;
-    x++;
-    printf ("%d",x);
-    return (0);
-}
-
-int main()
-{
-    int x = 10;
-    x++;
-    printf ("%d \n",x);
-    
-}
 
 
 
